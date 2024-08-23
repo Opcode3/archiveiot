@@ -7,20 +7,20 @@ class MysqlDBH implements DatabaseHandler
 
 
     // DB Details
-    // private $host = 'localhost';
-    // private $password = "";
-    // private $dbname = "archiveiot";
-    // private $username = 'root';
-    // private $charset = 'utf8mb4';
+    private $host = 'localhost';
+    private $password = "";
+    private $dbname = "archiveiot";
+    private $username = 'root';
+    private $charset = 'utf8mb4';
     private $connectionString;
 
     // Remote
 
-    private $host = "127.0.0.1";
-    private $username = "root_server_hms";
-    private $password = "1hvqjFNv3#3S";
-    private $dbname = "archiveiot_db";
-    private $charset = 'utf8mb4';
+    // private $host = "127.0.0.1";
+    // private $username = "root_server_hms";
+    // private $password = "1hvqjFNv3#3S";
+    // private $dbname = "archiveiot_db";
+    // private $charset = 'utf8mb4';
 
 
 

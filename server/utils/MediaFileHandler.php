@@ -2,7 +2,6 @@
 
 namespace app\utils;
 
-use app\services\MediaService;
 
 class MediaFileHandler
 {
@@ -15,7 +14,6 @@ class MediaFileHandler
 
     function __construct()
     {
-        // $this->mediaService = new MediaService();
         if (!file_exists($this->base_url)) {
             mkdir($this->base_url, 0777, true);
         }
